@@ -37,7 +37,7 @@ jobs:
         run: python manage.py migrate
         
       - name: Create SuperAdmin
-        run: python manage.py createsuperuser --${{ secrets.DJANGO_SUPERUSER_USERNAME }} --email=mukul@admin.com --noinput
+        run: python manage.py createsuperuser --username=mukulchugh --email=mukul@admin.com --noinput
         
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
