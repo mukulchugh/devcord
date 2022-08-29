@@ -39,6 +39,9 @@ jobs:
       - name: Create SuperAdmin
         run: python manage.py createsuperuser --username=mukulchugh --noinput
         
+      - name: Collect Static Files 
+        run: python manage.py collectstatic
+        
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
