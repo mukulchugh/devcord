@@ -13,7 +13,7 @@ $ cd devcord
 Create a virtual environment to install dependencies in and activate it:
 
 ```sh
-$ virtualenv2 --no-site-packages env
+$ virtualenv env
 $ source env/bin/activate
 ```
 
