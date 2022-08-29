@@ -1,6 +1,9 @@
 # Devcord Web Application
 A Web App buIlt using Django for developers to connect and collaborate
 
+![alt text](https://github.com/mukulchugh/devcord/blob/master/screenshot.jpg?raw=true)
+
+
 ## Setup
 
 The first thing to do is to clone the repository:
