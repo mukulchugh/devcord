@@ -3,7 +3,7 @@ backports.zoneinfo==0.2.1
 certifi==2022.6.15
 charset-normalizer==2.1.1
 dj-database-url==1.0.0
-Django==4.1
+Django==4.1.6
 django-cors-headers==3.13.0
 djangorestframework==3.13.1
 docopt==0.6.2
